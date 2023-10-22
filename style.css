@@ -196,3 +196,28 @@ body {
 .slide a:hover .image-container img {
   transform: scale(1.1); /* Increase the scale on hover (adjust the scale factor as needed) */
 }
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #0074c2;
+}
+
+h3 {
+  font-size: 18px;
+  color: #666;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 20px 0;
+}
+
+body.clothingpage{
+  margin-top: 5%;
+}
