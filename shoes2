@@ -1,0 +1,70 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nike Dunk Low Retro- Sustainability</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/style.css" />
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="tops.html">Tops</a>
+    <a href="bottoms.html">Bottoms</a>
+    <a href="shoes.html">Shoes</a>
+    <a href="sources.html">Sources</a>
+  </div>
+
+  <div class="garment">
+    <div class="garmentimg">
+      <img src="technicaimgs/nikeDunks.webp">
+    </div>
+
+    <div class="garmentinfo">
+      <h6> Nike </h6>
+      <h4> Nike Dunk Low Retro </h4>
+      <p> Nike Dunks are a perfect day-to-night shoe—ideal for walks to class and a casual night out. Whether it be for a monochrome look or a pop of color, Nike Dunk Lows are the versatile and comfortable pick for students at UMD. 
+      </p>
+
+      <div class="sustainability">
+        <h4> Sustainability Facts </h4>
+
+        <h6> Materials: </h6>
+        <ul>
+          <li> Synthetic Leather </li>
+          <li> Polyester </li>
+          <li> Ethylene Vinyl Acetate (EVA) </li>
+        </ul>
+
+        <h6> Synthetic Leather Sustainability Facts: </h6>
+        <p> According to the carbon offset company <a href="https://8billiontrees.com/carbon-offsets-credits/carbon-footprint-of-polyester/#:~:text=The%20carbon%20footprint%20of%20polyester%20can%20be%20explained%20as%20follows,driven%20by%20gas%2Dpowered%20car)"> 8 Billion Trees,</a> "artificial leather's impact is 15.8kg of CO2 emissions per square meter." </p>
+
+        <h6> Polyester Sustainability Facts: </h6>
+        <p> Two square meters of polyester is equal to 6.4kg carbon emissions, 32.5km distance driven, and 164.9m3 of CO2 gas. </p>
+        <p> </p>
+      </div>
+    </div>
+
+    
+  </div>
+  
+  <div class="alternatives"> 
+    <table>
+      <h1 class="altHeaders"> Alternative Choices </h1>
+      <tr>
+        <td> <a href=""> <img src="#"> </a>
+        <figcaption>Brand</figcaption>
+        <figcaption>Item</figcaption> </td>
+        
+        <td> <a href=""> <img src="#"> </a>
+        <figcaption>Brand</figcaption>
+        <figcaption>Item</figcaption> </td>
+      </tr>
+    </table>
+    
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
