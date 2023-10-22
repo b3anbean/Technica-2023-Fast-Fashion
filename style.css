@@ -197,7 +197,7 @@ body {
   transform: scale(1.1); /* Increase the scale on hover (adjust the scale factor as needed) */
 }
 
-h1 {
+h4 {
   font-size: 36px;
   color: #333;
 }
@@ -212,7 +212,7 @@ h3 {
   color: #666;
 }
 
-p {
+h5 {
   font-size: 16px;
   color: #333;
   margin: 20px 0;
