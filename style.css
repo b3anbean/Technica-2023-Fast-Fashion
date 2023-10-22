@@ -35,7 +35,7 @@ body {
 .categoryHeaders {
   text-align: left;
   font-family: Lucida Handwriting;
-  transform: translate(0, 50%);
+  transform: translate(0, 100%);
 }
 
 .garment {
