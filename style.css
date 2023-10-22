@@ -34,7 +34,7 @@ body {
 
 .categoryHeaders {
   text-align: left;
-  font-family: Lucida Handwriting;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transform: translate(0, 100%);
 }
 
@@ -128,4 +128,71 @@ section.large {
 .garmentinfo h4, h5, h6 {
   padding: 0;
   margin: .5vw;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Use the full viewport height */
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%; /* Carousel takes the full width of the viewport */
+  margin-top: 20px; /* Adjust the top margin as needed to move the carousel down */
+}
+
+.slide {
+  flex: 0 0 33.33%; /* Equal width for each slide (3 slides in a row) */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+
+.slide a {
+  text-decoration: none;
+  display: block;
+  color:black;
+}
+
+.slide a:visited{
+  color:black;
+}
+
+.slide a:hover{
+  color:aqua;
+}
+
+
+.image-container {
+  overflow: clip;
+  height: 0;
+  padding-bottom: 125%; 
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease; /* Transition for the hover effect */
+}
+
+.slide p {
+  margin: 10px 0;
+}
+
+.slide a:hover .image-container img {
+  transform: scale(1.1); /* Increase the scale on hover (adjust the scale factor as needed) */
 }
